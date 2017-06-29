@@ -16,16 +16,16 @@
    under the License.
 */
 
-ext {
-    apply from: 'cordova.gradle'
-    cdvCompileSdkVersion = privateHelpers.getProjectTarget()
-    cdvBuildToolsVersion = privateHelpers.findLatestInstalledBuildTools()
-}
+// ext {
+//     apply from: 'cordova.gradle'
+//     cdvCompileSdkVersion = privateHelpers.getProjectTarget()
+//     cdvBuildToolsVersion = privateHelpers.findLatestInstalledBuildTools()
+// }
 
 buildscript {
     repositories {
-        mavenCentral()
         jcenter();
+        mavenCentral()
         maven { url "https://jitpack.io" }
     }
 
