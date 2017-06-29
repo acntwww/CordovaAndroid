@@ -3,3 +3,4 @@
 framework.iml
 .gradle/
 build/
+local.properties
